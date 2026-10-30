@@ -1,17 +1,40 @@
-# cadastro_app
+# Cadastro de Usuário (Flutter)
 
-A new Flutter project.
+Tela de cadastro de usuário desenvolvida em Flutter, com captura de dados, filtros de entrada, validação de campos e feedback visual.
 
-## Getting Started
+**Aluno:** Renan Humberto
+**Matrícula:** 2320880
+**Disciplina:** Teste de Software, UniEVANGÉLICA
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Campos: nome completo, e-mail, CPF, telefone e senha
+- Formulário com `Form` e `TextFormField`
+- Teclado adequado e `inputFormatters` (CPF e telefone aceitam só números)
+- Validação campo a campo, com erros exibidos abaixo de cada campo
+- `SnackBar` verde de sucesso quando o cadastro é válido
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Regras de validação
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Todos os campos são obrigatórios
+- E-mail deve conter `@` e seguir um formato válido (RegExp)
+- CPF com 11 dígitos e telefone com 10 ou 11 dígitos
+- Senha com no mínimo 6 caracteres
+
+## Desafio extra implementado
+
+- Campo de confirmação de senha
+- Botão para mostrar/ocultar a senha
+- Validação de e-mail com RegExp
+- `SnackBar` vermelho quando há campos inválidos
+
+## Como executar
+
+1. Instale o Flutter SDK
+2. Clone o repositório
+3. Na pasta do projeto, rode `flutter pub get`
+4. Rode o app com `flutter run -d chrome`
+
+## Estrutura
+
+O código principal está em `lib/main.dart`.
