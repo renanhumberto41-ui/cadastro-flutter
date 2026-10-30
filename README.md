@@ -4,7 +4,7 @@ Tela de cadastro de usuário desenvolvida em Flutter, com captura de dados, filt
 
 **Aluno:** Renan Humberto
 **Matrícula:** 2320880
-**Disciplina:** Teste de Software, UniEVANGÉLICA
+**Disciplina:** Desenvolvimento Mobile
 
 ## Funcionalidades
 
